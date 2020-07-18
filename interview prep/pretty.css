@@ -1,0 +1,102 @@
+@media(max-width: 530px){
+	h1.title::before {
+		content:"Great VALORANT Streamers";
+	}
+}
+@media(min-width: 531px){
+	h1.title::before {
+		content:"List of Great VALORANT Streamers";
+	}
+}
+
+#rankpic{
+	width: 50%;
+}
+#rankpage{
+		padding: 20px;
+		padding-right: 100px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+
+th,td{
+	padding:15px;
+}
+
+button{
+	background-color:tan;
+	text-decoration-color: black;
+}
+button:hover{
+	background-color:#7fd4f0 ;
+}
+
+a.watch{
+	color:black;
+}
+@media (max-width: 999px){
+	h1#streamerheader{
+		color:#b82402;
+	}
+	h1{
+		color:purple;
+	}
+	body{
+		background-color:#c0c2c4; 
+	}
+}
+@media (min-width: 1000px){
+	h1#streamerheader{
+		color:purple;
+	}
+	h1{
+		color:#b82402;
+	}
+	body{
+		background-color:#c0c2c4; 
+	}
+}
+
+/*#pic4{
+	width: 33%;
+	height: 33%;
+}*/
+
+col-sm-6, col-lg-3{
+	padding-top: 50px;
+}
+
+#valorant-img{
+	width:100%;
+	height:auto;
+}
+
+.container-fluid{
+	position: :relative;
+	color:yellow;
+}
+
+.bottom-left{
+	position: absolute;
+	font-size:50px;
+	transform:translate(1%,-110%);
+}
+
+div.card{
+	margin-top: 20px;
+	height:550px;
+}
+
+
+#line{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: black;
+}
+
+.card-image-top{
+	height:200px;
+}
